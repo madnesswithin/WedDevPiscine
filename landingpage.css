@@ -1,0 +1,19 @@
+
+.table {
+    width: 0;
+    margin: 0 auto;
+    padding: 0;
+    align-self: "center";
+}
+
+.tr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.td {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
