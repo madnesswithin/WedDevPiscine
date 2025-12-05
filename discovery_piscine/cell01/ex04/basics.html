@@ -1,0 +1,55 @@
+<!-- <html>
+    <body bgcolor="PaleVioletRed">
+        <head>
+            <title>Basics</title>
+        </head>
+        <h1 style="text-align: center;" text-color="white;">HTML Flex!</h1>
+                <img style="float: left;" title="amazing book character artist" src="https://cdn.faire.com/fastly/304bc1a63f3b70cb43a51c94512b94e7f0bab0c979864a332e50cc48f1607594.jpeg?bg-color=FFFFFF&dpr=1&fit=crop&format=jpg&height=720&width=720" width = 420 height = 540 hspace = "20">
+                <figcaption><a style="float: left;" alt="Art by Vivia"href="https://artbyviva.com/">Art by Vivia</a></figcaption>
+                <p><figure><a alt="Art by Vivia"href="https://artbyviva.com/">Art by Vivia</a></figure></p>
+                <figcaption><a alt="Art by Vivia"href="https://artbyviva.com/">Art by Vivia</a></figcaption>
+                <img style="float: left;" title="Sustainable stationery store" src="https://i0.wp.com/thepaperdolphin.com/wp-content/uploads/2025/01/paper-dolphin-logo-low-res-copy.png?resize=1080%2C754&ssl=1" width = 420 height = 540 hspace = "20">
+                <figcaption><a style="float: left;" alt="The Paper Dolphin" href="https://thepaperdolphin.com/">The Paper Dolphin</a></figcaption>
+                <p><figure><a alt="The Paper Dolphin" href="https://thepaperdolphin.com/">The Paper Dolphin</a></figure></p>
+                <figcaption><a alt="The Paper Dolphin" href="https://thepaperdolphin.com/">The Paper Dolphin</a></figcaption>
+        <hr>
+        <p style="font-family: monospace;" style="float: right;"><i>©mababu 2021</i></p>
+    </body>
+</html> -->
+
+<html>
+    <head>
+        <title>Basics</title>
+    <style>
+	
+	.column {
+	  flex: 100%;
+	  /* padding: 5px; */
+	}
+	img {
+	  width: 90%;
+      height: 90%;
+	}
+	.container {
+	   display: flex;
+	}
+
+	
+</style>
+</head>  
+<body style="background-color: palevioletred;">
+    <h1 style="text-align: center; color: white;">HTML Flex!</style></h1>
+	<div class="container">
+	   <div class="column">
+	     <img style="flex-direction: column;" title="amazing book character artist" src="https://cdn.faire.com/fastly/304bc1a63f3b70cb43a51c94512b94e7f0bab0c979864a332e50cc48f1607594.jpeg?bg-color=FFFFFF&dpr=1&fit=crop&format=jpg&height=720&width=720" width="100" height="220">
+         <figcaption><a style="float: left;" alt="Art by Vivia"href="https://artbyviva.com/">Art by Vivia</a></figcaption>
+       </div>
+	   <div class="column">
+	     <img style="flex-direction: column;" title="Sustainable stationery store" src="https://i0.wp.com/thepaperdolphin.com/wp-content/uploads/2025/01/paper-dolphin-logo-low-res-copy.png?resize=1080%2C754&ssl=1" width="100" height="220">
+         <figcaption><a style="flex-wrap: wrap;" alt="The Paper Dolphin" href="https://thepaperdolphin.com/">The Paper Dolphin</a></figcaption>
+	   </div>  
+	</div>
+    <hr>
+    <footer style="text-align: right;"><i style="font-family: monospace;">©mababu 2025</i></footer>
+</body>
+</html> 

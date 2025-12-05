@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Tables using CSS</title>
+        <style>
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                margin: 5px;
+                padding: 10px;
+            }
+            .table-wrapper{
+                display: flex;
+                /* justify-content: space-between; */
+                margin: 20px;
+            }
+            .table{
+                border-collapse:collapse;
+                border-spacing: 0;
+                width: 100%;
+                height: 50%;
+                border: 1px saddlebrown;
+                margin-right: 10px;
+            }
+            /* tr{
+                border: 1px solid black;
+            } */
+            td{
+                border: 1px solid black;
+                padding: 8px;
+                width: 100;
+                height: 120;
+                text-align:left;
+                vertical-align: middle;
+                /* white-space: inherit; */
+                /* background-color: lightcoral; */
+            }
+            /* td1{
+               border: 1px solid black;
+                padding: 8px;
+                width: 100%;
+                height: 120;
+                text-align: left;
+                vertical-align: middle;
+                background-color: turquoise;
+            } */
+        </style>
+    </head>
+    <body>
+        <!-- <div class="container"> -->
+            <div class="table-wrapper">
+                <table class="table">
+                        <td style="background-color: lightcoral;">
+                            Coral reefs must be protected.
+                        </td> 
+                        <td style="background-color: turquoise;">
+                            The ocean burns.
+                        </td>
+                </table>
+            </div>
+        <!-- </div> -->
+    </body>
+</html>
