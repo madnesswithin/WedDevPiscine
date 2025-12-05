@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: #0f5257;
+}
+
+.container {
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.btn-color {
+  padding: 3% 3%;
+  border: none;
+  border-radius: 5px;
+  color: #0f5257;
+  font-size: 1rem;
+  cursor: pointer;
+}
+@keyframes hexcolors {
+  0% {
+    color: #fe5e41;
+  }
+  20% {
+    color: #646e68;
+  }
+  40% {
+    color: #d8f1a0;
+  }
+  60% {
+    color: #0075f2;
+  }
+  80% {
+    color: #c7a27c;
+  }
+  100% {
+    color: #a23b72;
+  }
+}
+
+
+
