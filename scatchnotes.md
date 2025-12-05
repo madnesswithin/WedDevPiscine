@@ -19,7 +19,7 @@ Idea how to build the tree
 
 ---
 
-# Ideas
+# Ideas 
 
     ...
 
